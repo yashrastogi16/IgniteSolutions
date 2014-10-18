@@ -1,6 +1,6 @@
 str1=str(raw_input("Enter any string"))
 str2 = ""
-delimiters = [" ", ",", ";", ".", "\n"]
+delimiters = [" ", ",", ";", ".", "\n","!","@","-"]
 i = 0
 for j in range(1, len(str1)):
     if str1[j] in delimiters:
